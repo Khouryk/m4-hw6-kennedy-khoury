@@ -11,7 +11,10 @@ function getPizzaOrder() {
   var pizza = {
     // set the 'cost' property to the basePrice
     // YOUR CODE HERE
+    cost: basePrice
+    
   }
+  console.log(pizza);
 
   var crust = prompt(
     `Please enter the type of crust (${formatPrice(thickCrustUpcharge)} upcharge for Thick crust)`
